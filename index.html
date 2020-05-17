@@ -4,35 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/colorScheme.css" />
-    <link rel="stylesheet" href="css/layout/smallScreens.css" />
-    <link rel="stylesheet" href="css/layout/mediumScreens.css" />
-    <link rel="stylesheet" href="css/layout/largeScreens.css" />
+    <link rel="stylesheet" href="css/index/colorScheme.css" />
+    <link rel="stylesheet" href="css/index/layout/smallScreens.css" />
+    <link rel="stylesheet" href="css/index/layout/mediumScreens.css" />
+    <link rel="stylesheet" href="css/index/layout/largeScreens.css" />
 
-    <title>Document</title>
+    <title>Landing page</title>
   </head>
   <body>
     <header>
-      <section class="logoContainer">
-        <img src="images/logo-quiz.jpg" alt="logo" />
+      <section id="logoContainer">
+        <img src="images/logo-quiz.png" alt="logo" />
         <p>LOREM</p>
       </section>
       <section id="languages">
         <h2>Select your language</h2>
         <ul>
-          <li><img src="images/usa.png" alt="USA Flag" /></li>
-          <li><img src="images/france.png" alt="France Flag" /></li>
-          <li><img src="images/germany.png" alt="Germany Flag" /></li>
-          <li><img src="images/macedonia.png" alt="Macedonia Flag" /></li>
+          <li>
+            <a href="#"><img src="images/usa.png" alt="USA Flag" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/france.png" alt="France Flag" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/germany.png" alt="Germany Flag" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/macedonia.png" alt="Macedonia Flag"
+            /></a>
+          </li>
         </ul>
       </section>
     </header>
     <main>
       <h1>Carrer Quiz</h1>
-      <h3>Enter your code</h3>
-      <input type="number" />
-      <button type="submit" value="Start">Start</button>
+      <section id="codeInputContainer">
+        <h3>Enter your code</h3>
+        <form id="codeInput">
+          <input />
+          <button type="submit" value="Start">Start</button>
+        </form>
+      </section>
     </main>
-    <div class="loader"></div>
+    <section id="loader">
+      <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
   </body>
 </html>

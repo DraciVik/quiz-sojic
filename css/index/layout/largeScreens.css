@@ -1,0 +1,68 @@
+/* Header */
+header {
+  padding: 2.5rem 2rem 0 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logoContainer {
+  text-align: center;
+}
+#logoContainer img {
+  width: 7rem;
+}
+
+#languages h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#languages ul {
+  width: 12rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#languages ul li img {
+  width: 2rem;
+  height: 1rem;
+}
+
+/* Main */
+main {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+main h1 {
+  font-size: 7rem;
+  margin-bottom: 20px;
+}
+#codeInputContainer {
+  width: 60%;
+  margin: 6rem auto 0 auto;
+}
+/* Code input */
+#codeInputContainer h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+#codeInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#codeInput input {
+  width: 100%;
+  text-align: center;
+  font-size: 72px;
+  margin-bottom: 30px;
+}
+#codeInput button {
+  width: 7rem;
+  height: 7rem;
+  font-size: 2rem;
+}

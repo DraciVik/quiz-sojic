@@ -18,35 +18,63 @@
     </header>
     <main>
       <form>
-        <h2>I am ...</h2>
-        <input type="checkbox" name="parctical" value="Practical" />
-        <label for="practical">Practical</label><br />
-        <input type="checkbox" name="athletic" value="Athletic" />
-        <label for="athletic">Athletic</label><br />
-        <input
-          type="checkbox"
-          name="straightforward"
-          value="traightforward"
-          checked
-        />
-        <label for="Straightforward">Straightforward</label><br />
-        <input
-          type="checkbox"
-          name="mechanicallyInclined"
-          value="Mechanically Inclined"
-        />
-        <label for="mechanicallyInclined">Mechanically Inclined</label><br />
-        <input type="checkbox" name="reliable" value="Reliable" />
-        <label for="reliable">Reliable</label><br />
-        <input type="checkbox" name="persistent" value="Persistent" />
-        <label for="persistent">Persistent</label><br />
-        <input type="checkbox" name="thrifty" value="Thrifty" />
-        <label for="thrifty">Thrifty</label><br />
-        <input type="checkbox" name="genuine" value="Genuine" />
-        <label for="genuine">Genuine</label><br />
+        <div id="checkboxes">
+          <h2>I am ...</h2>
+          <ul>
+            <li>
+              <input type="checkbox" name="practical" value="Practical" />
+              <span class="checkmark"></span
+              ><label for="practical">Practical</label>
+            </li>
+            <li>
+              <input type="checkbox" name="athletic" value="Athletic" />
+              <span class="checkmark"></span
+              ><label for="athletic">Athletic</label>
+            </li>
+            <li>
+              <input
+                type="checkbox"
+                name="straightforward"
+                value="traightforward"
+                checked
+              />
+              <span class="checkmark"></span
+              ><label for="Straightforward">Straightforward</label>
+            </li>
+            <li>
+              <input
+                type="checkbox"
+                name="mechanicallyInclined"
+                value="Mechanically Inclined"
+              />
+              <span class="checkmark"></span
+              ><label for="mechanicallyInclined">Mechanically Inclined</label>
+            </li>
+            <li>
+              <input type="checkbox" name="reliable" value="Reliable" />
+              <span class="checkmark"></span
+              ><label for="reliable">Reliable</label>
+            </li>
+            <li>
+              <input type="checkbox" name="persistent" value="Persistent" />
+              <span class="checkmark"></span
+              ><label for="persistent">Persistent</label>
+            </li>
+            <li>
+              <input type="checkbox" name="thrifty" value="Thrifty" />
+              <span class="checkmark"></span
+              ><label for="thrifty">Thrifty</label>
+            </li>
+            <li>
+              <input type="checkbox" name="genuine" value="Genuine" />
+              <span class="checkmark"></span
+              ><label for="genuine">Genuine</label>
+            </li>
+          </ul>
+        </div>
         <div id="progressSubmitContainer">
           <div id="progressContainer">
-            <h2>2 of 15 answered</h2>
+            <h3>2 of 15 answered</h3>
             <div id="progressBar">
               <div></div>
             </div>
@@ -55,5 +83,13 @@
         </div>
       </form>
     </main>
+    <section id="loader">
+      <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
   </body>
 </html>

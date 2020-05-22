@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/index/colorScheme.css" />
-    <link rel="stylesheet" href="css/index/layout/smallScreens.css" />
-    <link rel="stylesheet" href="css/index/layout/mediumScreens.css" />
-    <link rel="stylesheet" href="css/index/layout/largeScreens.css" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/index/colorScheme.css" />
+		<link rel="stylesheet" href="css/index/layout/largeScreens.css" />
+		<link rel="stylesheet" href="css/index/layout/mediumScreens.css" />
+		<link rel="stylesheet" href="css/index/layout/smallScreens.css" />
 
-    <title>Landing page</title>
-  </head>
-  <body>
-    <header>
-      <section id="logoContainer">
-        <img src="images/logo-quiz.png" alt="logo" />
-        <p>LOREM</p>
-      </section>
-      <section id="languages">
-        <h2>Select your language</h2>
-        <ul>
-          <li>
-            <a href="#"><img src="images/usa.png" alt="USA Flag" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="images/france.png" alt="France Flag" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="images/germany.png" alt="Germany Flag" /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="images/macedonia.png" alt="Macedonia Flag"
-            /></a>
-          </li>
-        </ul>
-      </section>
-    </header>
-    <main>
-      <h1>Carrer Quiz</h1>
-      <section id="codeInputContainer">
-        <h3>Enter your code</h3>
-        <form id="codeInput">
-          <input />
-          <button type="submit" value="Start">Start</button>
-        </form>
-      </section>
-    </main>
-    <section id="loader">
-      <div class="lds-ring">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </section>
-  </body>
+		<title>Landing page</title>
+	</head>
+	<body>
+		<header>
+			<section id="logoContainer">
+				<img src="images/logo-quiz.png" alt="logo" />
+				<p>LOREM</p>
+			</section>
+			<section id="languages">
+				<p>Select your language</p>
+				<ul>
+					<li>
+						<a href="#"
+							><img src="images/usa.png" alt="USA Flag"
+						/></a>
+					</li>
+					<li>
+						<a href="#"
+							><img src="images/france.png" alt="France Flag"
+						/></a>
+					</li>
+					<li>
+						<a href="#"
+							><img src="images/germany.png" alt="Germany Flag"
+						/></a>
+					</li>
+					<li>
+						<a href="#"
+							><img
+								src="images/macedonia.png"
+								alt="Macedonia Flag"
+						/></a>
+					</li>
+				</ul>
+			</section>
+		</header>
+		<main>
+			<h1>Carrer Quiz</h1>
+			<section id="codeInputContainer">
+				<form id="codeInput">
+					<label for="codeInput"> Enter your code below</label>
+					<input id="codeInput" name="codeInput" />
+					<button type="submit" value="Start">Start</button>
+				</form>
+			</section>
+		</main>
+		<section id="loader">
+			<div class="lds-ring">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</section>
+	</body>
 </html>

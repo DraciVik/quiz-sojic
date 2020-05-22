@@ -1,0 +1,23 @@
+@media screen and (max-width: 500px) {
+	:root {
+		font-size: 8px;
+	}
+
+	/* Form */
+
+	ul li {
+		margin-bottom: 2px;
+	}
+	ul li label {
+		margin-left: 40px;
+	}
+
+	ul li input[type="checkbox"] + label::before {
+		margin-left: -43px;
+		width: 10px;
+		height: 10px;
+	}
+	#progressBar {
+		width: 90%;
+	}
+}

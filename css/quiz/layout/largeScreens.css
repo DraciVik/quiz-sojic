@@ -76,7 +76,7 @@ ul li input[type="checkbox"]:checked + label::before {
 }
 
 #progressBar {
-	width: 80%;
+	width: 60%;
 	border-radius: 13px;
 }
 
